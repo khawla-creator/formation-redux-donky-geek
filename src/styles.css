@@ -1,0 +1,67 @@
+
+.section-one {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+img {
+  margin: 0 auto;
+  height: 150px;
+}
+
+#count, #count-tab, #count-tv {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.container p {
+  text-align: center;
+}
+
+button {
+  border: 1px solid purple;
+  background: purple;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 80%
+}
+
+button:hover {
+  border: 1px solid rgb(54, 4, 54);
+  background: rgb(54, 4, 54);
+}
+
+.btnContainer 
+{
+display: flex;
+justify-content: space-around;
+}
+
+
+input 
+{
+width:30px;
+text-align: center;
+font-size:1em;
+}
+
+.comment 
+{
+border : 1px solid black;
+padding : 5px;
+}
